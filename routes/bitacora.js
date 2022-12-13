@@ -13,7 +13,7 @@ router.post('/',[
     
     validarCampos
 ],Bitacora.bitacoraPost)
-router.get('/',Bitacora.bitacoraGet)
+router.get( '/',Bitacora.bitacoraGet)
 
 
 
