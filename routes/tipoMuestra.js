@@ -15,7 +15,7 @@ router.get('/:id',[
 
 router.post('/',[
   
-    check( 'tipos', 'El campo es obligatorio').not().isEmpty(),
+    check('tipos', 'El campo es obligatorio').not().isEmpty(),
     validarCampos
 ],tipoMuestra.tipoMuestraPost)
 
