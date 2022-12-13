@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const tipoMuestraSchema= new mongoose.Schema({
 
-    tipos: {
+    tipos:{
         type: String,
         required: true,
     },
