@@ -12,7 +12,7 @@ const tipoMuestraSchema= new mongoose.Schema({
     }
 })
 
-export default mongoose.model("tipoMuestra", tipoMuestraSchema)
+export default mongoose.model("tipoMuestra",tipoMuestraSchema)
 
 //En bloque
 //Pulverizada
