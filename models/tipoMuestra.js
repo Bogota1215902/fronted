@@ -8,11 +8,11 @@ const tipoMuestraSchema= new mongoose.Schema({
     },
     estado:{
         type: String,
-        default: "Activo"
+        default: "Activo" 
     }
 })
 
-export default mongoose.model("tipoMuestra",tipoMuestraSchema)
+export default mongoose.model("tipoMuestra", tipoMuestraSchema)
 
 //En bloque
 //Pulverizada
